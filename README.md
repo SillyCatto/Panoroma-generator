@@ -18,11 +18,11 @@ options:
 
 After the camera turns on, the usage is,
 
-Press key 'c' to,
-    The cam starts saving the frames to memory every `self.capture_buffer` seconds.
-Press key 's' to,
-    The cam stops saving the frames to memory and calls `self.save_frames(flush=True)`.
+- Pressing key 'c'
+    * The cam starts saving the frames to memory every `self.capture_buffer` seconds.
+- Pressing key 's'
+    * The cam stops saving the frames to memory and calls `self.save_frames(flush=True)`.
     This is useful for testing.
-Press key 'q' to,
-    The cam stops saving the frames to memory and the cam itself is released. However,
+- Pressing key 'q'
+    * The cam stops saving the frames to memory and the cam itself is released. However,
     the frames are still stored and can be accessed using `save_frames` and `get_frames` methods.
